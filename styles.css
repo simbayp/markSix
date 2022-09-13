@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+
+/* remove browser css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comic Neue", cursive;
+  background-color: #fffacd;
+}
+
+header {
+  height: 100px;
+  line-height: 100px;
+  width: 100%;
+  background-color: #ffd55e;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #36454f;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  width: 200px;
+  height: 200px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.input textarea {
+  width: 70%;
+  height: 150px;
+  background-color: #fffacd;
+  border: 3px solid #36454f;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "Comic Neue", cursive;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.btn button {
+  background-color: #ffd55e;
+  color: #36454f;
+  width: 200px;
+  height: 50px;
+  border: 3px solid #36454f;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: "Comic Neue", cursive;
+}
+
+.output {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.output div {
+  width: 70%;
+  height: 150px;
+  border: 3px solid #36454f;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffd55e;
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+footer .about {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #36454f;
+  padding-top: 10px;
+}
+
+footer .about-text {
+  font-size: 1.5rem;
+  color: #36454f;
+  width: 70%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
